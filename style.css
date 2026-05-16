@@ -348,39 +348,38 @@ section {
 #about {
   position: relative;
   padding-top: 2rem;
+  height: auto;
 }
 
-#about .title,
-#about .section__text__p1 {
+#about .section__text__p1,
+#about .title {
   text-align: left;
 }
 
 .about-layout {
-  display: grid;
-  grid-template-columns: 220px 1fr;
-  align-items: center;
+  display: flex;
+  align-items: flex-start;
   gap: 3rem;
   margin-top: 2rem;
 }
 
 .about-logo-container {
-  width: 220px;
-  height: auto;
+  flex: 0 0 180px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .about-logo {
-  width: 100%;
+  width: 160px;
   height: auto;
   object-fit: contain;
   border-radius: 0;
-  box-shadow: none;
 }
 
 .about-details-container {
-  width: 100%;
+  flex: 1;
+  min-width: 0;
 }
 
 .about-containers {
@@ -399,9 +398,17 @@ section {
 }
 
 .text-container {
+  width: 100%;
   max-width: 100%;
-  text-align: center;
+  text-align: left;
   line-height: 1.7;
+}
+
+.text-container p {
+  margin-bottom: 0.8rem;
+}
+
+
 }/* EXPERIENCE SECTION */
 
 #experience {
