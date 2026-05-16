@@ -244,6 +244,43 @@ section {
   cursor: pointer;
   height: 1.8rem;
 }
+/*new*/
+.about-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  min-width: 260px;
+  height: auto;
+  padding: 1.5rem;
+  background: #ffffff;
+  border-radius: 1.5rem;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.about-logo {
+  width: 100%;
+  height: auto;
+  max-height: 220px;
+  object-fit: contain;
+  border-radius: 0;
+}
+#about .section-container {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+#about .about-details-container {
+  flex: 1;
+}
+
+#about .text-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.7;
+}
 /* ICONS */
 
 .icon {
