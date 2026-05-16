@@ -309,3 +309,34 @@ footer .nav-links {
   justify-content: center;
   margin-bottom: 1rem;
 }
+/* FINAL ABOUT TEXT FIX */
+
+#about .about-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+#about .about-details-container {
+  flex: 1;
+  width: 100%;
+  min-width: 0;
+}
+
+#about .text-container {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  text-align: left !important;
+  white-space: normal !important;
+}
+
+#about .text-container p {
+  width: 100% !important;
+  max-width: 100% !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+  text-align: left !important;
+}
