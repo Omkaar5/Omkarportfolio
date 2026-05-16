@@ -244,7 +244,9 @@ section {
   cursor: pointer;
   height: 1.8rem;
 }
+
 /*NEW*/
+
 .about-logo-container {
   display: flex;
   justify-content: center;
@@ -259,9 +261,9 @@ section {
 }
 
 .about-logo {
-  width: 100%;
+  width: 50%;
   height: auto;
-  max-height: 220px;
+  max-height: 200px;
   object-fit: contain;
   border-radius: 0;
 }
@@ -276,7 +278,7 @@ section {
 }
 
 #about .text-container {
-  max-width: 1200px;
+  max-width: 120px;
   margin: 0 auto;
   text-align: center;
   line-height: 1.7;
