@@ -36,7 +36,7 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 80px;
 }
 
 .nav-links {
@@ -149,7 +149,7 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
+  padding-top: 2vh;
   height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
@@ -168,8 +168,8 @@ section {
   justify-content: center;
   align-items: center;
   gap: 5rem;
-  min-height: 80vh;
-  padding: 4rem 0;
+  min-height: calc(100vh - 80px);
+  padding: 0;
 }
 
 .section__pic-container {
