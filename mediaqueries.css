@@ -13,39 +13,60 @@
   }
   
   @media screen and (max-width: 1200px) {
-    #desktop-nav {
-      display: none;
-    }
-    #hamburger-nav {
-      display: flex;
-    }
-    #experience,
-    .experience-details-container {
-      margin-top: 2rem;
-    }
-    #profile,
-    .section-container {
-      display: block;
-    }
-    .arrow {
-      display: none;
-    }
-    section,
-    .section-container {
-      height: fit-content;
-    }
-    section {
-      margin: 0 5%;
-    }
-    .section__pic-container {
-      width: 275px;
-      height: 275px;
-      margin: 0 auto 2rem;
-    }
-    .about-containers {
-      margin-top: 0;
-    }
+  #desktop-nav {
+    display: none;
   }
+
+  #hamburger-nav {
+    display: flex;
+  }
+
+  #profile {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    min-height: fit-content;
+    padding: 3rem 0;
+  }
+
+  .section__pic-container {
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;
+  }
+
+  .section__text {
+    text-align: center;
+  }
+
+  .section__text__p1,
+  .title {
+    text-align: center;
+  }
+
+  .btn-container,
+  #socials-container {
+    justify-content: center;
+  }
+
+  section,
+  .section-container {
+    height: fit-content;
+  }
+
+  section {
+    margin: 0 5%;
+  }
+
+  .about-containers {
+    margin-top: 0;
+    flex-wrap: wrap;
+  }
+
+  .arrow {
+    display: none;
+  }
+}
   
   @media screen and (max-width: 600px) {
     #contact,
