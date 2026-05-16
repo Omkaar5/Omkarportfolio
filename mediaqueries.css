@@ -67,6 +67,26 @@
     display: none;
   }
 }
+@media screen and (max-width: 900px) {
+  .about-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .about-logo-container {
+    width: 180px;
+    margin: 0 auto;
+  }
+
+  .about-containers {
+    flex-direction: column;
+  }
+
+  #about .title,
+  #about .section__text__p1 {
+    text-align: center;
+  }
+}
   
   @media screen and (max-width: 600px) {
     #contact,
