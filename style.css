@@ -244,13 +244,13 @@ section {
   cursor: pointer;
   height: 1.8rem;
 }
-/*new*/
+/*NEW*/
 .about-logo-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 260px;
-  min-width: 260px;
+  width: 150px;
+  min-width: 150px;
   height: auto;
   padding: 1.5rem;
   background: #ffffff;
